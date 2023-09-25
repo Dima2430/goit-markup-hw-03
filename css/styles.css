@@ -177,7 +177,7 @@ img {
   display: flex;
 }
 .strategylistitem {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .strategyheader {
   color: var(--NAVY-BLUE, #2e2f42);
